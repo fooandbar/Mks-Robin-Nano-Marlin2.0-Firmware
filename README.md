@@ -18,7 +18,7 @@ As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO
 
 1. Build firmware:
 
-- Configuation.h:  
+- Configuation.h:
     //#define AUTO_BED_LEVELING_BILINEAR
     //#define BLTOUCH
     //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
