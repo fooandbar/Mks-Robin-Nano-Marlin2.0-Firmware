@@ -11,7 +11,7 @@ As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO
 1. Build firmware:
 2. Update firmware:
    
-- Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware/tree/master/Firmware/wBLTOUCH).
+- Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano35.bin` to `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware/tree/master/Firmware/wBLTOUCH).
 - Insert SD card to the motherboard, and you can see the update interface after power on.   
 
 #### Without an autoleveling sensor.
@@ -25,5 +25,5 @@ As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO
      
 2. Update firmware:
    
-- Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware/tree/master/Firmware/woBLTOUCH).
+- Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano35.bin` to `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware/tree/master/Firmware/woBLTOUCH).
 - Insert SD card to the motherboard, and you can see the update interface after power on.   
