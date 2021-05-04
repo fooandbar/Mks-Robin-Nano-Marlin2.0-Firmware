@@ -1082,8 +1082,8 @@
 //#define Z_CLEARANCE_DEPLOY_PROBE   10 // Z Clearance for Deploy/Stow
 //#define Z_CLEARANCE_BETWEEN_PROBES  5 // Z Clearance between probe points
 // FIX 2021/05/04
-#define Z_CLEARANCE_DEPLOY_PROBE   20 // Z Clearance for Deploy/Stow
-#define Z_CLEARANCE_BETWEEN_PROBES  20 // Z Clearance between probe points
+#define Z_CLEARANCE_DEPLOY_PROBE   10 // Z Clearance for Deploy/Stow
+#define Z_CLEARANCE_BETWEEN_PROBES  10 // Z Clearance between probe points
 #define Z_CLEARANCE_MULTI_PROBE     5 // Z Clearance between multiple probes
 //#define Z_AFTER_PROBING           5 // Z position after probing is done
 
@@ -1197,8 +1197,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-//#define Z_MAX_POS 250
-#define Z_MAX_POS 250 // FIX 2021/05/02
+#define Z_MAX_POS 120
 
 /**
  * Software Endstops
