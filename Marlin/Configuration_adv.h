@@ -187,11 +187,7 @@
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
   #define THERMAL_PROTECTION_PERIOD 45        // Seconds
-<<<<<<< HEAD
   #define THERMAL_PROTECTION_HYSTERESIS 5     // Degrees Celsius
-=======
-    #define THERMAL_PROTECTION_HYSTERESIS 5     // Degrees Celsius
->>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
   //#define ADAPTIVE_FAN_SLOWING              // Slow part cooling fan if temperature drops
   #if BOTH(ADAPTIVE_FAN_SLOWING, PIDTEMP)
