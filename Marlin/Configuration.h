@@ -121,7 +121,12 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
+<<<<<<< HEAD
 #define BAUDRATE 115200
+=======
+//#define BAUDRATE 250000
+#define BAUDRATE 115200 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -458,18 +463,27 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
+<<<<<<< HEAD
 //#define HEATER_0_MAXTEMP 275
 #define HEATER_0_MAXTEMP 305
 //#define HEATER_1_MAXTEMP 275
 #define HEATER_1_MAXTEMP 275
+=======
+#define HEATER_0_MAXTEMP 305  
+#define HEATER_1_MAXTEMP 275  
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
 #define HEATER_4_MAXTEMP 275
 #define HEATER_5_MAXTEMP 275
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
+<<<<<<< HEAD
 //#define BED_MAXTEMP      150
 #define BED_MAXTEMP      100
+=======
+#define BED_MAXTEMP      100  
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -619,10 +633,17 @@
 // Specify here all the endstop connectors that are connected to any endstop or probe.
 // Almost all printers will be using one per axis. Probes will use one or more of the
 // extra connectors. Leave undefined any used for non-endstop and non-probe purposes.
+<<<<<<< HEAD
 //#define USE_XMIN_PLUG
 #define USE_YMIN_PLUG
 #define USE_ZMIN_PLUG
 #define USE_XMAX_PLUG
+=======
+//#define USE_XMIN_PLUG 
+#define USE_YMIN_PLUG
+#define USE_ZMIN_PLUG
+#define USE_XMAX_PLUG 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 //#define USE_YMAX_PLUG
 //#define USE_ZMAX_PLUG
 
@@ -742,7 +763,10 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
+<<<<<<< HEAD
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 133 }
+=======
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 520, 520, 8800, 800}
 
 /**
@@ -763,7 +787,10 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
+<<<<<<< HEAD
 //#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 }
+=======
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define DEFAULT_MAX_ACCELERATION      { 11, 11, 2, 22 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
@@ -844,7 +871,11 @@
  * The probe replaces the Z-MIN endstop and is used for Z homing.
  * (Automatically enables USE_PROBE_FOR_Z_HOMING.)
  */
+<<<<<<< HEAD
 //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+=======
+#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN  
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 // Force the use of the probe for Z-axis homing
 //#define USE_PROBE_FOR_Z_HOMING
@@ -903,6 +934,10 @@
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
 //#define BLTOUCH
+<<<<<<< HEAD
+=======
+#define BLTOUCH 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 /**
  * Touch-MI Probe by hotends.fr
@@ -994,7 +1029,10 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
+<<<<<<< HEAD
 //#define NOZZLE_TO_PROBE_OFFSET { -40, -14, -2 }
+=======
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define NOZZLE_TO_PROBE_OFFSET { 0, -35, -1.3 }
 
 // Most probes should stay away from the edges of the bed, but
@@ -1063,8 +1101,13 @@
  * Example: `M851 Z-5` with a CLEARANCE of 4  =>  9mm from bed to nozzle.
  *     But: `M851 Z+1` with a CLEARANCE of 2  =>  2mm from bed to nozzle.
  */
+<<<<<<< HEAD
 #define Z_CLEARANCE_DEPLOY_PROBE   20 // Z Clearance for Deploy/Stow
 #define Z_CLEARANCE_BETWEEN_PROBES  20 // Z Clearance between probe points
+=======
+#define Z_CLEARANCE_DEPLOY_PROBE   10 // Z Clearance for Deploy/Stow
+#define Z_CLEARANCE_BETWEEN_PROBES  10 // Z Clearance between probe points
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define Z_CLEARANCE_MULTI_PROBE     5 // Z Clearance between multiple probes
 //#define Z_AFTER_PROBING           5 // Z position after probing is done
 
@@ -1130,13 +1173,21 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR true
+<<<<<<< HEAD
 #define INVERT_Y_DIR false
+=======
+#define INVERT_Y_DIR false  
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define INVERT_Z_DIR false
 
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
+<<<<<<< HEAD
 #define INVERT_E0_DIR false
+=======
+#define INVERT_E0_DIR false 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1174,7 +1225,11 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
+<<<<<<< HEAD
 #define Z_MAX_POS 250
+=======
+#define Z_MAX_POS 120
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 /**
  * Software Endstops
@@ -1218,12 +1273,12 @@
  * RAMPS-based boards use SERVO3_PIN for the first runout sensor.
  * For other boards you may need to define FIL_RUNOUT_PIN, FIL_RUNOUT2_PIN, etc.
  */
-//#define FILAMENT_RUNOUT_SENSOR
+#define FILAMENT_RUNOUT_SENSOR
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define FIL_RUNOUT_ENABLED_DEFAULT true // Enable the sensor on startup. Override with M412 followed by M500.
   #define NUM_RUNOUT_SENSORS   1          // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
 
-  #define FIL_RUNOUT_STATE     LOW        // Pin state indicating that filament is NOT present.
+  #define FIL_RUNOUT_STATE     HIGH        // Pin state indicating that filament is NOT present.
   #define FIL_RUNOUT_PULLUP               // Use internal pullup for filament runout pins.
   //#define FIL_RUNOUT_PULLDOWN           // Use internal pulldown for filament runout pins.
 
@@ -1317,7 +1372,11 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
+<<<<<<< HEAD
 #define AUTO_BED_LEVELING_BILINEAR
+=======
+#define AUTO_BED_LEVELING_BILINEAR  
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 //#define AUTO_BED_LEVELING_UBL
 //#define MESH_BED_LEVELING
 
@@ -1508,7 +1567,11 @@
 // - Move the Z probe (or nozzle) to a defined XY point before Z Homing.
 // - Prevent Z homing when the Z probe is outside bed area.
 //
+<<<<<<< HEAD
 //#define Z_SAFE_HOMING
+=======
+#define Z_SAFE_HOMING 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT X_CENTER  // X point for Z homing
@@ -1645,7 +1708,7 @@
  *    P1  Raise the nozzle always to Z-park height.
  *    P2  Raise the nozzle by Z-park amount, limited to Z_MAX_POS.
  */
-//#define NOZZLE_PARK_FEATURE
+#define NOZZLE_PARK_FEATURE
 
 #if ENABLED(NOZZLE_PARK_FEATURE)
   // Specify a park position as { X, Y, Z_raise }
@@ -2339,7 +2402,11 @@
 // 320x240, 2.4", FSMC Display From MKS
 // Normally used in MKS Robin Nano V1.2
 //
+<<<<<<< HEAD
 #define MKS_ROBIN_TFT24
+=======
+#define MKS_ROBIN_TFT24 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 //
 // 320x240, 2.8", FSMC Display From MKS
@@ -2357,7 +2424,11 @@
 // 480x320, 3.5", FSMC Display From MKS
 // Normally used in MKS Robin Nano V1.2
 //
+<<<<<<< HEAD
 //#define MKS_ROBIN_TFT35
+=======
+//#define MKS_ROBIN_TFT35 
+>>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 
 //
 // 480x272, 4.3", FSMC Display From MKS
