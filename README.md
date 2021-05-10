@@ -11,13 +11,8 @@ Once this firmware is installed, you cannot revert to Selpic's original firmware
 ## Build
 As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO, the buid compiling steps are the same as Marlin2.0.x. You can directly using [PlatformIO Shell Commands](https://docs.platformio.org/en/latest/core/installation.html#piocore-install-shell-commands), or using IDEs contain built-in PlatformIO Core(CLI), for example, [VSCode](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode) and [Atom](https://docs.platformio.org/en/latest/integration/ide/atom.html). VSCode is recommended.
 
-<<<<<<< HEAD
-### Firmware Can be run with/without [an autoleveling sensor](https://www.thingiverse.com/thing:4831530).
-#### With an autoleveling sensor.
-=======
 ### Firmware Can be run with/without [an autoleveling sensor](https://www.thingiverse.com/thing:4831530) and [an filament runout sensor](https://www.thingiverse.com/thing:4848446).
 #### With sensors.
->>>>>>> 746e1fc18e64f8f1efffd5fc08ed3bcb96c8091e
 1. Switch to [master](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware-For-Selpic-Star-A.LABISTS-SX1) branch.
 1. Build firmware:
 2. Update firmware:
