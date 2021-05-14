@@ -6,8 +6,8 @@ The firmware of Selpic Star A/LABISTS SX1, based on [Marlin2.0.x](https://github
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. see [LICENSE](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware-For-Selpic-Star-A.LABISTS-SX1/blob/master/LICENSE)
 
 ## NOTICE
-Once this firmware is installed, you cannot revert to Selpic's original firmware.
-
+1. Once this firmware is installed, you cannot revert to Selpic's original firmware.
+2. This version does not support a laser engraving kit yet.
 ## Build
 As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO, the buid compiling steps are the same as Marlin2.0.x. You can directly using [PlatformIO Shell Commands](https://docs.platformio.org/en/latest/core/installation.html#piocore-install-shell-commands), or using IDEs contain built-in PlatformIO Core(CLI), for example, [VSCode](https://docs.platformio.org/en/latest/integration/ide/vscode.html#ide-vscode) and [Atom](https://docs.platformio.org/en/latest/integration/ide/atom.html). VSCode is recommended.
 
