@@ -125,7 +125,7 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                        PB0
+    //#define FAN1_PIN                        PB0
   #endif
 #else
   #ifndef HEATER_1_PIN
@@ -248,3 +248,5 @@
   #define W25QXX_MISO_PIN                   PB14
   #define W25QXX_SCK_PIN                    PB13
 #endif
+
+#define SPINDLE_LASER_ENA_PIN   PB0
