@@ -14,8 +14,8 @@ As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO
 ### Firmware Can be run with/without [an autoleveling sensor](https://www.thingiverse.com/thing:4831530) and [an filament runout sensor](https://www.thingiverse.com/thing:4848446).
 #### With sensors.
 1. Switch to [master](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware-For-Selpic-Star-A.LABISTS-SX1) branch.
-1. Build firmware:
-2. Update firmware:
+2. Build firmware:
+3. Update firmware:
    
 - Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano35.bin` to `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware/tree/master/Firmware/wBLTOUCH).
 - Insert SD card to the motherboard, and you can see the update interface after power on.   
@@ -28,3 +28,8 @@ As the firmware is based on Marlin2.0.x which is built on the core of PlatformIO
    
 - Enter the `.pio\build\mks_robin_nano35` directory, copy `Robin_nano35.bin` to the sd card, rename `Robin_nano35.bin` to `Robin_nano.bin` . The pre-built firmware can be found [here](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware-For-Selpic-Star-A.LABISTS-SX1/tree/woBLTOUCH/Firmware/woBLTOUCH).
 - Insert SD card to the motherboard, and you can see the update interface after power on.   
+
+## Setup
+### an autoleveling sensor
+* use `Z Probe Wizard`
+    Main menu  > Configuration > Advanced Settings > Probe offsets > Z Probe Wizard
