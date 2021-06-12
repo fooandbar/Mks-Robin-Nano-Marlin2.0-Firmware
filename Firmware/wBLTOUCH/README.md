@@ -20,3 +20,16 @@ see https://marlinfw.org/docs/features/lin_advance.html
     2. select `configuration` -> `Advanced configuration` -> `Filament` -> `Advanced K`
     3. set K factor.
 
+# [Backlash compensation](https://marlinfw.org/docs/gcode/M425.html)
+see https://www.thingiverse.com/thing:2040624 thanks!
+
+1. unzip [an attached zip](https://github.com/fooandbar/Mks-Robin-Nano-Marlin2.0-Firmware-For-Selpic-Star-A.LABISTS-SX1/files/6641966/QuickBacklash20.zip)
+2. slice a stl file to gcode.
+3. print a gcode file.
+4. set a backlash value.
+
+    1. push Setting button.
+    2. select `Configuration` -> `Advanced configuration` -> `Backlash`
+    3. set X/Y distance value.
+    4. set `Correction` to 100%.
+
